@@ -4,6 +4,14 @@ so, when I made the code at college, APPARENTLY since I wasn't able to test it I
 
 NOW IT WORKS!
 
+Added a requirements.txt this time.
+
+open the folder in terminal and type:
+
+```
+pip install -r requirements.txt
+```
+
 The usage is the same as before:
 
 ```
