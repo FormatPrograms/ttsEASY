@@ -1,9 +1,18 @@
-Usage:
+Okay!
 
-from pyspeak.py import speak
+so, when I made the code at college, APPARENTLY since I wasn't able to test it I didn't debug it right, meaning the code didn't work. HOW EMBARASSING!
 
-example:
+NOW IT WORKS!
 
-speak(hello world)
+The usage is the same as before.
 
-do NOT add quotation marks, it's already formatted to convert text. if you add quotation marks I will break your kneecaps.
+```
+from pyspeak import speak
+
+speak("Helo world!")
+```
+made this for a few future projects (like a server + speaker AI assistant coming soon.)
+
+use it however you want, don't care. unless it's malware, but you skiddie fucks don't care if the code you use to make malware permits you to or not lol.
+
+- Format
