@@ -11,6 +11,15 @@ open the folder in terminal and type:
 ```
 pip install -r requirements.txt
 ```
+You may need a python virtual environment! (I know, it's annoying but pip does this for some reason.) to do this just type:
+
+```
+python -m venv path/to/venv
+
+venv/bin/pip install -r requirements.txt
+
+```
+
 
 The usage is the same as before:
 
