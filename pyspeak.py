@@ -4,11 +4,11 @@ from gtts import gTTS
 import os
 
 def speak(text):
-    text = None
     speak = gTTS(f'{text}', lang='en')
     speak.save("voice.mp3")
     pwd = os.getcwd()
-    speak(pwd + '/voice.mp3')
-    nee = AudioSegment.from_mp3("voice.mp3")
+    pwd = (pwd + '/voice.mp3')
+    nee = AudioSegment.from_mp3(pwd)
+    nee.speedup(playback_speed=1.25)
     play(nee)
-    os.system("rm " + pwd + '/voice.mp3')
+    os.system("rm voice.mp3")
